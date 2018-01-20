@@ -1,0 +1,3 @@
+[submodule "udon-kilib"]
+	path = udon-kilib
+	url = https://github.com/udonrobo/udon-kilib
