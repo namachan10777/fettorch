@@ -1,4 +1,4 @@
-update=Sun 21 Jan 2018 01:37:05 AM JST
+update=Sun 21 Jan 2018 02:50:30 AM JST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,5 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=../udon-kilib/udon-kilib
