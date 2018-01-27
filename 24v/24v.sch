@@ -1633,4 +1633,3 @@ F 3 "" H 5150 5600 50  0001 C CNN
 	1    5150 5600
 	1    0    0    -1  
 $EndComp
-$EndSCHEMATC
