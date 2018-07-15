@@ -1,4 +1,4 @@
-update=Sun 21 Jan 2018 02:50:30 AM JST
+update=Sun 15 Jul 2018 03:29:12 PM JST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,4 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=../udon-kilib/udon-kilib
+LibName33=../lib/fettorch
