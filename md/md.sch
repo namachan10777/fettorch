@@ -343,39 +343,10 @@ F 3 "" H 2400 2750 50  0001 C CNN
 	1    2400 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C3
-U 1 1 5B9CD685
-P 2150 2850
-F 0 "C3" V 1898 2850 50  0000 C CNN
-F 1 "0.1uF" V 1989 2850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2188 2700 50  0001 C CNN
-F 3 "~" H 2150 2850 50  0001 C CNN
-	1    2150 2850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2400 2750 2400 2850
 Wire Wire Line
-	2400 2850 2300 2850
-Wire Wire Line
 	2400 2850 2650 2850
-Connection ~ 2400 2850
-$Comp
-L power:GNDPWR #PWR01
-U 1 1 5B9CEA7F
-P 1900 2950
-F 0 "#PWR01" H 1900 2750 50  0001 C CNN
-F 1 "GNDPWR" H 1904 2796 50  0000 C CNN
-F 2 "" H 1900 2900 50  0001 C CNN
-F 3 "" H 1900 2900 50  0001 C CNN
-	1    1900 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 2950 1900 2850
-Wire Wire Line
-	1900 2850 2000 2850
 $Comp
 L Device:D D1
 U 1 1 5B9CF866
@@ -695,39 +666,10 @@ F 3 "" H 9350 2750 50  0001 C CNN
 	1    9350 2750
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:C C11
-U 1 1 5B9FCF53
-P 9600 2850
-F 0 "C11" V 9348 2850 50  0000 C CNN
-F 1 "0.1uF" V 9439 2850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9638 2700 50  0001 C CNN
-F 3 "~" H 9600 2850 50  0001 C CNN
-	1    9600 2850
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	9350 2750 9350 2850
 Wire Wire Line
-	9350 2850 9450 2850
-Wire Wire Line
 	9350 2850 9100 2850
-Connection ~ 9350 2850
-$Comp
-L power:GNDPWR #PWR015
-U 1 1 5B9FCF5E
-P 9850 2950
-F 0 "#PWR015" H 9850 2750 50  0001 C CNN
-F 1 "GNDPWR" H 9854 2796 50  0000 C CNN
-F 2 "" H 9850 2900 50  0001 C CNN
-F 3 "" H 9850 2900 50  0001 C CNN
-	1    9850 2950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 2950 9850 2850
-Wire Wire Line
-	9850 2850 9750 2850
 $Comp
 L Device:D D6
 U 1 1 5B9FCF66
@@ -939,41 +881,12 @@ Wire Wire Line
 	6750 2600 6500 2600
 Wire Wire Line
 	6500 2600 6500 2750
-$Comp
-L Device:C C8
-U 1 1 5B9FCFE4
-P 6200 2850
-F 0 "C8" H 6050 3050 50  0000 L CNN
-F 1 "10uF" H 6050 2950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6238 2700 50  0001 C CNN
-F 3 "~" H 6200 2850 50  0001 C CNN
-	1    6200 2850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 2700 6200 2600
-Wire Wire Line
-	6200 2600 6500 2600
 Connection ~ 6500 2600
-Wire Wire Line
-	6200 2600 5900 2600
-Connection ~ 6200 2600
 Connection ~ 5900 2600
 Wire Wire Line
 	5250 4200 5900 4200
 Connection ~ 5250 4200
 Connection ~ 6500 4200
-$Comp
-L power:+5V #PWR07
-U 1 1 5BA190E2
-P 5900 2500
-F 0 "#PWR07" H 5900 2350 50  0001 C CNN
-F 1 "+5V" H 5915 2673 50  0000 C CNN
-F 2 "" H 5900 2500 50  0001 C CNN
-F 3 "" H 5900 2500 50  0001 C CNN
-	1    5900 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 2500 5900 2600
 $Comp
@@ -992,12 +905,8 @@ Wire Wire Line
 Wire Wire Line
 	5600 3100 5900 3100
 Wire Wire Line
-	6200 3100 6200 3000
-Wire Wire Line
 	5900 3000 5900 3100
 Connection ~ 5900 3100
-Wire Wire Line
-	5900 3100 6200 3100
 Wire Wire Line
 	5900 3100 5900 3200
 $Comp
@@ -1265,4 +1174,18 @@ F 3 "~" H 5950 3700 50  0001 C CNN
 	1    5950 3700
 	0    1    1    0   
 $EndComp
+$Comp
+L power:+24V #PWR0109
+U 1 1 5BA529B3
+P 5900 2500
+F 0 "#PWR0109" H 5900 2350 50  0001 C CNN
+F 1 "+24V" H 5915 2673 50  0000 C CNN
+F 2 "" H 5900 2500 50  0001 C CNN
+F 3 "" H 5900 2500 50  0001 C CNN
+	1    5900 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7050 1650
+Wire Wire Line
+	5900 2600 6500 2600
 $EndSCHEMATC
