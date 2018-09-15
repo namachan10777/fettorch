@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name fettorch)(type Legacy)(uri ../lib/fettorch.lib)(options "")(descr ""))
+  (lib (name fettorch)(type Legacy)(uri /home/namachan/Dropbox/Project/robocon/contrib/fettorch/lib/fettorch.lib)(options "")(descr ""))
 )
