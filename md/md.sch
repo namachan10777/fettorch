@@ -109,7 +109,7 @@ Wire Wire Line
 	1800 5500 1800 5600
 Wire Wire Line
 	1800 5600 1900 5600
-Text Label 4450 6500 2    50   ~ 0
+Text Label 4050 6500 2    50   ~ 0
 PWM
 $Comp
 L 74xx:74HC00 U1
@@ -150,7 +150,7 @@ Wire Wire Line
 	3650 6700 3650 6600
 Wire Wire Line
 	4450 6700 4350 6700
-Text Label 4450 6100 2    50   ~ 0
+Text Label 4050 6100 2    50   ~ 0
 PWM
 $Comp
 L Device:C C1
@@ -1844,4 +1844,30 @@ F 3 "" H 4900 7150 50  0001 C CNN
 	1    4900 7200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R13
+U 1 1 5B9F5939
+P 4200 6100
+F 0 "R13" V 3993 6100 50  0000 C CNN
+F 1 "330Ω" V 4084 6100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4130 6100 50  0001 C CNN
+F 3 "~" H 4200 6100 50  0001 C CNN
+	1    4200 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 6100 4450 6100
+$Comp
+L Device:R R14
+U 1 1 5BA3EADE
+P 4200 6500
+F 0 "R14" V 3993 6500 50  0000 C CNN
+F 1 "330Ω" V 4084 6500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4130 6500 50  0001 C CNN
+F 3 "~" H 4200 6500 50  0001 C CNN
+	1    4200 6500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 6500 4350 6500
 $EndSCHEMATC
