@@ -22,3 +22,5 @@ _autosave-*
 
 # Cache files
 *-cache.lib
+
+*/gerber/*
